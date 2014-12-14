@@ -25,42 +25,19 @@ layout: default
 			<h2 class="text-center section-title">Recent Works</h2>
 
 			<div class="row">
-				<div class="col-md-3">
-					<a href="#" class="portfolio-card">
-						<img src="http://lorempixel.com/400/400" alt="Series Addict">
-						<div class="meta">
-							<div class="title">Series Addict</div>
-							<div class="description">Manage and track your favorite TV shows.</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3">
-					<a href="#" class="portfolio-card">
-						<img src="http://lorempixel.com/400/400" alt="Series Addict">
-						<div class="meta">
-							<div class="title">Series Addict</div>
-							<div class="description">Manage and track your favorite TV shows.</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3">
-					<a href="#" class="portfolio-card">
-						<img src="http://lorempixel.com/400/400" alt="Series Addict">
-						<div class="meta">
-							<div class="title">Series Addict</div>
-							<div class="description">Manage and track your favorite TV shows.</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3">
-					<a href="#" class="portfolio-card">
-						<img src="http://lorempixel.com/400/400" alt="Series Addict">
-						<div class="meta">
-							<div class="title">Series Addict</div>
-							<div class="description">Manage and track your favorite TV shows.</div>
-						</div>
-					</a>
-				</div>
+
+				{% for portfolio in site.portfolios reversed limit:4 %}
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<a href="{{ portfolio.url }}" class="portfolio-card">
+							<img src="{{ portfolio.thumb }}" alt="{{ portfolio.title }}">
+							<div class="meta">
+								<div class="title">{{ portfolio.title }}</div>
+								<div class="description">{{ portfolio.description }}</div>
+							</div>
+						</a>
+					</div>
+				{% endfor %}
+
 			</div>
 
 			<div class="row">

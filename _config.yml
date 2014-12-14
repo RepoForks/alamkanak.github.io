@@ -17,3 +17,11 @@ facebook_username: alam.kanak
 
 # Build settings
 markdown: kramdown
+
+# Permalink
+
+# Collections
+collections:
+ portfolios:
+  output: true
+  permalink: /portfolio/:title/
