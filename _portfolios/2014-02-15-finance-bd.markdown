@@ -9,7 +9,7 @@ link: https://play.google.com/store/apps/details?id=com.alamkanak.android.financ
 link-title: Get it from Google Play
 ---
 
-![Finance BD](../../images/finance-bd.png)
+![Finance BD]({{ site.baseurl }}/images/finance-bd.png)
 
 Beat the stock market with Finance BD for Dhaka Stock Exchange (DSE), Bangladesh. Follow the stocks that you care about. See real-time profits and losses of the shares you own. The app is designed beautifully with nice looking graphs, effective navigation and intuitive functionality.
 

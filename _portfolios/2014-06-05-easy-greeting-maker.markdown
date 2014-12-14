@@ -9,7 +9,7 @@ link: https://play.google.com/store/apps/details?id=com.mobiobject.easygreetingm
 link-title: Get it from Google Play
 ---
 
-![Easy Greeting Maker](../../images/easy-greeting-maker.png)
+![Easy Greeting Maker]({{ site.baseurl }}/images/easy-greeting-maker.png)
 
 Easy Greeting Maker is a beautifully designed android app to let you share greeting cards to the people who are important to you.
 

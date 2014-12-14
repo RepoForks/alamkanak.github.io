@@ -29,7 +29,7 @@ layout: default
 				{% for portfolio in site.portfolios reversed limit:4 %}
 					<div class="col-md-3 col-sm-6 col-xs-6">
 						<a href="{{ portfolio.url }}" class="portfolio-card">
-							<img src="{{ portfolio.thumb }}" alt="{{ portfolio.title }}">
+							<img src="{{ site.baseurl }}/{{ portfolio.thumb }}" alt="{{ portfolio.title }}">
 							<div class="meta">
 								<div class="title">{{ portfolio.title }}</div>
 								<div class="description">{{ portfolio.description }}</div>
@@ -41,7 +41,7 @@ layout: default
 			</div>
 
 			<div class="row">
-				<a href="#" class="btn text-center btn-more">See More</a>
+				<a href="portfolio" class="btn text-center btn-more">See More</a>
 			</div>
 		</div>
 	</div>
