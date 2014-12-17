@@ -7,6 +7,10 @@ thumb: images/series-addict-thumb.png
 description: Manage and track your favorite TV shows.
 link: https://play.google.com/store/apps/details?id=com.alamkanak.seriesaddict
 link-title: Get it from Google Play
+project_date: October 2014
+client: Unsolicited
+skills: Android, UI Design, Java, XML
+category_slugs: android
 ---
 
 ![Series Addict]({{ site.baseurl }}/images/series-addict.png)

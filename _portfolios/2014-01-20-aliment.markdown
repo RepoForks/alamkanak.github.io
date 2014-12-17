@@ -5,6 +5,11 @@ date:   2014-01-20 14:16:03
 categories: android app
 thumb: images/aliment-thumb.png
 description: A beatiful wordpress theme for restaurants.
+
+project_date: January 2014
+client: Unsolicited
+skills: Wordpress, PHP, Javascript, HTML, CSS
+category_slugs: web
 ---
 
 ![Aliment]({{ site.baseurl }}/images/aliment.jpg)

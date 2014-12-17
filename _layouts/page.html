@@ -3,10 +3,10 @@
 
 	{% include head.html %}
 
-  <body>
+	<body class="page">
 
 	<!-- Navigation bar and the page header -->
-  	<header class="site-header">
+	<header class="site-header">
 		{% include navigation.html %}
 		<div class="page-header">
 			<div class="container">
@@ -15,17 +15,14 @@
 		</div>
 	</header>
 
-	
+
 	<div class="post container">
-	  <article class="page-content">
-	    {{ content }}
-	  	{% if page.link %}<a href="{{ page.link }}" class="btn btn-action" target="_blank">{% if page.link-title %}{{ page.link-title }}{% else %}View Project{% endif %}</a>{% endif %}
-	  </article>
+		{{ content }}
 	</div>
 
 	{% include footer.html %}
 
-  </body>
+	</body>
 
 </html>
 

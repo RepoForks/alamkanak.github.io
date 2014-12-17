@@ -5,8 +5,13 @@ date:   2014-02-15 14:16:03
 categories: android app
 thumb: images/finance-bd-thumb.png
 description: Your personal finance app for DSE stocks.
+
 link: https://play.google.com/store/apps/details?id=com.alamkanak.android.financebd
 link-title: Get it from Google Play
+project_date: February 2014
+client: Unsolicited
+skills: Android, UI Design, Java, XML
+category_slugs: android
 ---
 
 ![Finance BD]({{ site.baseurl }}/images/finance-bd.png)
